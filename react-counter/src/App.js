@@ -8,6 +8,7 @@ function App() {
       <button onClick={()=> setCount(prev => prev + 1)}>+</button>
       <button onClick={()=> setCount(prev => prev - 1)}>-</button>
       <button onClick={()=> setCount(prev => prev * prev)}>^2</button>
+      <button onClick={()=> setCount(0)}>Set to 0</button>
     </div>
   );
 }
